@@ -1,0 +1,16 @@
+{
+  "name": "payment-portal-exercise",
+  "version": "1.0.0",
+  "description": "Team building",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "author": "Magsud & Parviz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}

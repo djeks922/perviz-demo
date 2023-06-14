@@ -2,12 +2,12 @@
   "name": "payment-portal-exercise",
   "version": "1.0.0",
   "description": "Team building",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon server.js",
-    "start": "./node_modules/.bin/netlify-lambda serve server.js",
-    "build": "./node_modules/.bin/netlify-lambda build server.js"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "author": "Magsud & Parviz",
   "license": "ISC",
